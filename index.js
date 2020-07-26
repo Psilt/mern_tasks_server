@@ -12,7 +12,7 @@ server.use(cors({
 
 server.use(express.json({extended: true}))
 
-const port = process.env.port || 4000
+const port = process.env.PORT || 4000
 
 server.use('/api/users',require('./routes/users'))
 server.use('/api/auth',require('./routes/auth'))
