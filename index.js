@@ -7,7 +7,7 @@ const server = express()
 connectDB()
 
 server.use(cors({
-    origin: 'https://fervent-easley-ea6f99.netlify.app/'
+    origin: 'https://fervent-easley-ea6f99.netlify.app'
 }))
 
 server.use(express.json({extended: true}))
